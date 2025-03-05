@@ -8,7 +8,7 @@ on:
             - dev-0
 jobs:
     main:
-        uses: sample_react/.github/workflows/node-gcp-main.yml@main
+        uses: Kausheya2006/sample_react/.github/workflows/node-gcp-main.yml@main
         secrets: inherit
         with:
             GCP_PROJECT_ID: hackathon0-project-452818
